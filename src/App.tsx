@@ -1,11 +1,13 @@
 import './App.css';
 import MyHero from './components/MyHero';
+import MyServices from './components/MyServices';
 
 function App()
 {
   return (
-    <div className='App'>
+    <div>
       <MyHero />
+      <MyServices />
     </div>
   );
 }
