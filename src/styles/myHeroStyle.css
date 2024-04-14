@@ -1,0 +1,39 @@
+/* return (
+        //return a large hero image with content in the middle including a header, logo, and a button
+        <Container fluid className="hero-container" style={{backgroundImage: `url(${hero})`}}>
+            <div className="hero-content">
+                <h1>Welcome to My Website</h1>
+                <img src={logo} width="30" height="30" alt="My Brand Logo" />
+                <button>Learn More</button>
+            </div>
+        </Container>
+    ) */
+
+.main-container {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.hero-logo {
+	border-radius: 50%;
+	width: 180px;
+}
+
+.navbar-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

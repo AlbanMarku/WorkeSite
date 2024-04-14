@@ -4,7 +4,8 @@ import logo from "../assets/logo.png";
 const MyNavbar = () =>
 {
     return (
-        <Navbar bg="dark" variant="dark" expand="md">
+        <div className='navbar-container'>
+            <Navbar bg="dark" variant="dark" expand="md">
             <Container>
                 {/* Brand */}
                 <Navbar.Brand href="#home">
@@ -29,6 +30,7 @@ const MyNavbar = () =>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </div>
     );
 };
 
