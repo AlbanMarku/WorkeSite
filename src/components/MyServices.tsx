@@ -9,22 +9,22 @@ function MyServices()
             {/* header */}
             <h1 className="text-center" style={{color: "white", paddingTop: 20, paddingBottom: 20, fontStyle: "italic"}}>Our Services</h1>
             <Row>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
-                <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
+                <Col sm={6} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />
                 </Col>
             </Row>
