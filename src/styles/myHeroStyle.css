@@ -26,3 +26,8 @@
     top: 0;
     width: 100%;
 }
+
+.hero-header {
+    color: white;
+    background-color: rgba(39, 39, 39, 0.449);
+}

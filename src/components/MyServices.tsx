@@ -5,7 +5,7 @@ function MyServices()
 {
     return (
         //return a  grid of services item. a service item is a card witth an img, title, and description. grid is 2x2
-        <Container className="card-container" style={{marginTop: 0}}>
+        <Container id="services" className="card-container" style={{marginTop: 0}}>
             {/* header */}
             <h1 className="text-center" style={{color: "white", paddingTop: 20, paddingBottom: 20}}>Our Services</h1>
             <Row>

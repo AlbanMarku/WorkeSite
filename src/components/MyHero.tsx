@@ -6,6 +6,14 @@ import MyNavbar from './MyNavbar';
 
 function MyHero()
 {
+    function scrollToId(id: string)
+    {
+        const element = document.getElementById(id);
+        if (element)
+        {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
     return (
         //return a large hero image with content in the middle including a header, logo, and a button
         <div className='main-container' style={{ backgroundImage: `url(${hero})` }}>
@@ -13,7 +21,7 @@ function MyHero()
             <Container fluid className="hero-container" >
                 <img src={logo} alt="logo" className="hero-logo" />
                 <h1 className="hero-header">Welcome to My Website</h1>
-                <Button variant="outline-light" size='lg' onClick={() => { }}>View More</Button>
+                <Button variant="outline-light" size='lg' onClick={() => {scrollToId("services") }}>View More</Button>
             </Container>
         </div>
     );
