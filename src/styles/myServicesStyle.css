@@ -1,3 +1,18 @@
 .card-container {
     margin-top: 20px;
 }
+
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.custom-table {
+    font-size: 1.2em; /* Increase font size */
+    width: 50;
+}
+
+.custom-table thead th,
+.custom-table tbody td {
+    padding: 15px; /* Increase spacing */
+}

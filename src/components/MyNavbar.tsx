@@ -1,11 +1,11 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from "../assets/logo.png";
 
-const MyNavbar = () =>
+function MyNavbar()
 {
     return (
         <div className='navbar-container'>
-            <Navbar bg="dark" variant="dark" expand="md">
+            <Navbar expand="md" style={{backgroundColor: "#edd33e"}}>
             <Container>
                 {/* Brand */}
                 <Navbar.Brand href="#home">
@@ -25,7 +25,12 @@ const MyNavbar = () =>
                 {/* Navbar Links */}
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        Signed in as: <a href="#login">Mark Otto</a>
+                        <Nav>
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#services">Services</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
+                        </Nav>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
