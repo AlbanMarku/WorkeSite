@@ -13,10 +13,10 @@ function App()
         <MyServices />
       </div>
       <div style={{ backgroundColor: "white" }}>
-      <PriceTable />
+        <PriceTable />
       </div>
       <div style={{ backgroundColor: "white" }}>
-      <ContactUs />
+        <ContactUs />
       </div>
     </div>
   );

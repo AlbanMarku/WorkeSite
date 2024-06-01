@@ -3,7 +3,7 @@ import { Col, Container } from "react-bootstrap";
 function PriceTable()
 {
     return (
-        <Container className="tableContainer">
+        <Container id="pricing" className="tableContainer">
             <Col sm={12} md={12} lg={6}>
                 <table className="table custom-table">
                     <thead>

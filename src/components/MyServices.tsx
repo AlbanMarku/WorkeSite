@@ -7,7 +7,7 @@ function MyServices()
         //return a  grid of services item. a service item is a card witth an img, title, and description. grid is 2x2
         <Container id="services" className="card-container" style={{marginTop: 0}}>
             {/* header */}
-            <h1 className="text-center" style={{color: "white", paddingTop: 20, paddingBottom: 20}}>Our Services</h1>
+            <h1 className="text-center" style={{color: "white", paddingTop: 20, paddingBottom: 20, fontStyle: "italic"}}>Our Services</h1>
             <Row>
                 <Col sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-center mb-5">
                     <CardComp />

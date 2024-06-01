@@ -29,12 +29,16 @@ function ContactUs()
         setMap(null);
     }, []);
     return (
-        <Container fluid className="text-center">
+        <Container id="contact" fluid className="text-center" style={{
+            backgroundColor: "#1574b2",
+            padding: "20px 0px",
+            color: "white"
+        }}>
                 {/* Header */}
-                <h1>Contact Us</h1>
+                <h1 style={{color: "white", fontStyle: "italic"}}>Contact Us</h1>
 
                 {/* Row of Contact Details */}
-                <Container fluid={"md"}>
+                <Container style={{ marginTop: "20px", marginBottom: "20px"}} fluid={"md"}>
                     <Row className="justify-content-center" style={{}}>
                         <Col sm={12} md={4} lg={4}>
                             <h4>Address</h4>
@@ -47,7 +51,7 @@ function ContactUs()
                         <Col sm={12} md={4} lg={4}>
                             <h4>Email</h4>
                             <p>
-                                <a href="mailto: albanmarku@outlook.com">
+                                <a style={{color: "white", textDecoration: "none"}} href="mailto: albanmarku@outlook.com">
                                     albanmarku@outlook.com
                                 </a>
                             </p>
